@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/student/Desktop/sub_final/src/Image.h
+iostream
+-
+string
+-
+vector
+-
+memory
+-
+
+/home/student/Desktop/sub_final/src/Source.cpp
+Image.h
+/home/student/Desktop/sub_final/src/Image.h
+iostream
+-
+string
+-
+memory
+-
+exception
+-
+algorithm
+-
+

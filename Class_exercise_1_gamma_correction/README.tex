@@ -1,0 +1,59 @@
+%Introduction
+%导言区，一般用于宏包的调用，对文档进行一些全局的设置
+\documentclass[11pt,a4paper,fleqn]{article}
+
+% \usepackage{ctex}%chinese pack
+\usepackage{ulem}%better underline
+\usepackage{amsmath} %math
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{float}
+
+\title{CS-GY-6533 Interactive Computer Graphics In-Class Exercise 1}
+\author{Haotian Yi N18800809}
+\date{\today}
+
+%Main Body
+%正文区
+\begin{document}
+\maketitle
+%hello \heiti 你好
+
+\section{Gamma Correction}
+Codes for implementing gamma correction are below:
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale = 0.3]{code.png}
+	%\title{code}
+\end{figure}
+
+Original picture:
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale = 0.4]{origin.png}
+	%\title{code}
+\end{figure}
+Gamma: 4
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale = 0.3]{gamma_corrected4.png}
+	%\title{code}
+\end{figure}
+Gamma: 0.25 (Nonlinear inverse from last correction)
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale = 0.3]{gamma_corrected25.png}
+	%\title{code}
+\end{figure}
+Gamma: 0.25 (correct with 0.25 for second time)
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale = 0.3]{gamma_corrected25x2.png}
+	%\title{code}
+\end{figure}
+
+
+\end{document}
+

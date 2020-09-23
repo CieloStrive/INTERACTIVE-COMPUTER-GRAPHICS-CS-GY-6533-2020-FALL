@@ -1,0 +1,3 @@
+/home/student/Desktop/sub_final/build/CMakeFiles/rebuild_cache.dir
+/home/student/Desktop/sub_final/build/CMakeFiles/Assignment1.dir
+/home/student/Desktop/sub_final/build/CMakeFiles/edit_cache.dir
